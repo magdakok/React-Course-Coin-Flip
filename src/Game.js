@@ -19,7 +19,7 @@ class Game extends Component {
             } else {
                 this.setState({ side: "back", back: this.state.back + 1 });
             }
-        }, 2000);
+        }, 1000);
     }
 
     render(){
