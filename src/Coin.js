@@ -9,11 +9,11 @@ class Coin extends Component {
         return (
             <div className="Coin">
                 <div className={this.props.rotate ? `Coin-side Coin-side-front animation-front` : `Coin-side Coin-side-front`}>
-                    { this.props.side==="front" ? <img src={front}/> : <img src={back}/>}
+                    { this.props.side==="front" ? <img src={front} alt="Coin's front"/> : <img src={back} alt="Coin's back"/>}
                 </div>
 
                 <div className={this.props.rotate ? `Coin-side Coin-side-back animation-back` : `Coin-side Coin-side-back`}>
-                { this.props.side==="back" ? <img src={front}/> : <img src={back}/>}
+                { this.props.side==="back" ? <img src={front} alt="Coin's front"/> : <img src={back} alt="Coin's back"/>}
                 </div>
             </div>
         )
