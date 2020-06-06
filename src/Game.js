@@ -5,23 +5,27 @@ import Counter from "./Counter";
 class Game extends Component {
     constructor(props){
         super(props);
-        this.state = { side: "front", front: 0, back: 0}
+        this.state = { side: "front", front: 0, back: 0, rotate: false}
         this.clickHandler = this.clickHandler.bind(this);
     }
 
     clickHandler(){
         let option = Math.round(Math.random());
-        if (option === 0) {
-            this.setState({ side: "front", front: this.state.front + 1 });
-        } else {
-            this.setState({ side: "back", back: this.state.back + 1 });
-        }
+        this.setState({ rotate: true });
+        setTimeout(()=>{
+            this.setState({ rotate: false });
+            if (option === 0) {
+                this.setState({ side: "front", front: this.state.front + 1 });
+            } else {
+                this.setState({ side: "back", back: this.state.back + 1 });
+            }
+        }, 2000);
     }
 
     render(){
         return (
             <div className="Game">
-                <Coin side={this.state.side} />
+                <Coin side={this.state.side} rotate={this.state.rotate} />
                 <button onClick={this.clickHandler}>Flip coin!</button>
                 <Counter front={this.state.front} back={this.state.back}/>
             </div>

@@ -8,11 +8,11 @@ class Coin extends Component {
     render(){
         return (
             <div className="Coin">
-                <div className="Coin-side Coin-side-front">
+                <div className={this.props.rotate ? `Coin-side Coin-side-front animation-front` : `Coin-side Coin-side-front`}>
                     { this.props.side==="front" ? <img src={front}/> : <img src={back}/>}
                 </div>
 
-                <div className="Coin-side Coin-side-back">
+                <div className={this.props.rotate ? `Coin-side Coin-side-back animation-back` : `Coin-side Coin-side-back`}>
                 { this.props.side==="back" ? <img src={front}/> : <img src={back}/>}
                 </div>
             </div>
