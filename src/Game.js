@@ -27,7 +27,7 @@ class Game extends Component {
         return (
             <div className="Game">
                 <Coin side={this.state.side} rotate={this.state.rotate} />
-                <button onClick={this.clickHandler}>Flip coin</button>
+                <button onClick={this.clickHandler} disabled={this.state.rotate}>Flip coin</button>
                 <Counter front={this.state.front} back={this.state.back}/>
             </div>
         )
