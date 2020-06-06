@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Coin from "./Coin";
 import Counter from "./Counter";
+import "./Game.css";
 
 class Game extends Component {
     constructor(props){
@@ -26,7 +27,7 @@ class Game extends Component {
         return (
             <div className="Game">
                 <Coin side={this.state.side} rotate={this.state.rotate} />
-                <button onClick={this.clickHandler}>Flip coin!</button>
+                <button onClick={this.clickHandler}>Flip coin</button>
                 <Counter front={this.state.front} back={this.state.back}/>
             </div>
         )
