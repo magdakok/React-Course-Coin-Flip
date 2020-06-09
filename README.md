@@ -1,5 +1,7 @@
 # The Modern React Bootcamp Course exercise: Coin Flip
 
+## :movie_camera: https://magdakok.github.io/React-Course-Coin-Flip/
+
 **Simple app that lets user flip a coin and keeps track of how many times heads and tails have shown up.**
 
 ---
