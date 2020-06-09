@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/magdakok/Coin-flipping-game/static/css/main.65090147.chunk.css",
-    "main.js": "/magdakok/Coin-flipping-game/static/js/main.91da9077.chunk.js",
-    "main.js.map": "/magdakok/Coin-flipping-game/static/js/main.91da9077.chunk.js.map",
-    "runtime-main.js": "/magdakok/Coin-flipping-game/static/js/runtime-main.fceeb1f6.js",
-    "runtime-main.js.map": "/magdakok/Coin-flipping-game/static/js/runtime-main.fceeb1f6.js.map",
-    "static/js/2.8459777f.chunk.js": "/magdakok/Coin-flipping-game/static/js/2.8459777f.chunk.js",
-    "static/js/2.8459777f.chunk.js.map": "/magdakok/Coin-flipping-game/static/js/2.8459777f.chunk.js.map",
-    "index.html": "/magdakok/Coin-flipping-game/index.html",
-    "precache-manifest.78208f3e8212660afcb0bb6af6c1cf6a.js": "/magdakok/Coin-flipping-game/precache-manifest.78208f3e8212660afcb0bb6af6c1cf6a.js",
-    "service-worker.js": "/magdakok/Coin-flipping-game/service-worker.js",
-    "static/css/main.65090147.chunk.css.map": "/magdakok/Coin-flipping-game/static/css/main.65090147.chunk.css.map",
-    "static/js/2.8459777f.chunk.js.LICENSE.txt": "/magdakok/Coin-flipping-game/static/js/2.8459777f.chunk.js.LICENSE.txt",
-    "static/media/back.png": "/magdakok/Coin-flipping-game/static/media/back.cbda9acc.png",
-    "static/media/front.png": "/magdakok/Coin-flipping-game/static/media/front.fe7bfc02.png"
+    "main.css": "/React-Course-Coin-Flip/static/css/main.822d3c5a.chunk.css",
+    "main.js": "/React-Course-Coin-Flip/static/js/main.527685a2.chunk.js",
+    "main.js.map": "/React-Course-Coin-Flip/static/js/main.527685a2.chunk.js.map",
+    "runtime-main.js": "/React-Course-Coin-Flip/static/js/runtime-main.f4c479d8.js",
+    "runtime-main.js.map": "/React-Course-Coin-Flip/static/js/runtime-main.f4c479d8.js.map",
+    "static/js/2.8459777f.chunk.js": "/React-Course-Coin-Flip/static/js/2.8459777f.chunk.js",
+    "static/js/2.8459777f.chunk.js.map": "/React-Course-Coin-Flip/static/js/2.8459777f.chunk.js.map",
+    "index.html": "/React-Course-Coin-Flip/index.html",
+    "precache-manifest.ff6c6d29ab724cb1a22fe64aaf641019.js": "/React-Course-Coin-Flip/precache-manifest.ff6c6d29ab724cb1a22fe64aaf641019.js",
+    "service-worker.js": "/React-Course-Coin-Flip/service-worker.js",
+    "static/css/main.822d3c5a.chunk.css.map": "/React-Course-Coin-Flip/static/css/main.822d3c5a.chunk.css.map",
+    "static/js/2.8459777f.chunk.js.LICENSE.txt": "/React-Course-Coin-Flip/static/js/2.8459777f.chunk.js.LICENSE.txt",
+    "static/media/back.png": "/React-Course-Coin-Flip/static/media/back.cbda9acc.png",
+    "static/media/front.png": "/React-Course-Coin-Flip/static/media/front.fe7bfc02.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.fceeb1f6.js",
+    "static/js/runtime-main.f4c479d8.js",
     "static/js/2.8459777f.chunk.js",
-    "static/css/main.65090147.chunk.css",
-    "static/js/main.91da9077.chunk.js"
+    "static/css/main.822d3c5a.chunk.css",
+    "static/js/main.527685a2.chunk.js"
   ]
 }
