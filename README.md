@@ -1,6 +1,6 @@
 # The Modern React Bootcamp Course exercise: Coin Flip
 
-Simple app that lets user flip a coin and keeps track of how many times heads and tails have shown up.
+**Simple app that lets user flip a coin and keeps track of how many times heads and tails have shown up.**
 
 ---
 
